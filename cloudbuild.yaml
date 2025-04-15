@@ -30,7 +30,7 @@ steps:
       [
         "run",
         "deploy",
-        "be",
+        "noteapp-be",
         "--image",
         "gcr.io/$PROJECT_ID/noteapp-be",
         "--timeout",
